@@ -1,5 +1,5 @@
 # xv6
-xv6 Kernel on QEMU RISCV Build
+Build xv6 Kernel for RISCV & x86; then run on QEMU
 
 ```bash
 sudo apt install git-all
