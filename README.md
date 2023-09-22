@@ -24,6 +24,16 @@ chmod 700 -R xv6-riscv
 cd xv6-riscv
 make
 make qemu
+
+#For x86
+sudo apt-get install qemu qemu-system-x86
+sudo apt-get install libc6-dev:i386
+git clone https://github.com/mit-pdos/xv6-public.git
+chmod 700 -R xv6-public
+cd xv6-public
+make
+make qemu
+
 ```
 
 Todo: Dockerize & Document
