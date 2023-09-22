@@ -26,4 +26,4 @@ make
 make qemu
 ```
 
-Todo: Dockerize
+Todo: Dockerize & Document
